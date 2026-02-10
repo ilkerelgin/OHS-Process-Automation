@@ -9,7 +9,7 @@ Bu sistem, geleneksel yöntemlerle (Excel vb.) takip edilen karmaşık İSG sür
 
 Müşteri ve Talep Yönetimi: Farklı sektörlerdeki (İnşaat, Maden, Gıda vb.) müşterilerin ve gelen taleplerin takibi.
 
-Dinamik Teklif Modülü: Hizmet kataloğundan (Eğitim, Denetim, Danışmanlık) seçilen kalemlerle otomatik teklif oluşturma ve onay mekanizması (Draft -> Sent -> Approved).
+Dinamik Teklif Modülü: Hizmet kataloğundan (Eğitim, Denetim, Danışmanlık) seçilen kalemlerle otomatik teklif oluşturma ve onay mekanizması.
 
 Personel ve Sertifika Takibi: A/B/C sınıfı İş Güvenliği Uzmanları ve İşyeri Hekimlerinin yetkinliklerine göre yönetimi.
 
