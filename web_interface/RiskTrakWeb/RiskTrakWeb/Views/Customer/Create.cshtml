@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Yeni Müşteri Ekle";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4>➕ Yeni Müşteri Kaydı</h4>
+                </div>
+                <div class="card-body">
+                    <form action="/Customer/Create" method="post">
+
+                        <div class="mb-3">
+                            <label class="form-label">Firma Adı</label>
+                            <input type="text" name="name" class="form-control" required placeholder="Örn: Megatrak A.Ş." />
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Sektör</label>
+                                <select name="industry" class="form-select">
+                                    <option value="Manufacturing">Üretim</option>
+                                    <option value="Construction">İnşaat</option>
+                                    <option value="Textile">Tekstil</option>
+                                    <option value="Health">Sağlık</option>
+                                    <option value="Logistics">Lojistik</option>
+                                    <option value="Other">Diğer</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Vergi No</label>
+                                <input type="text" name="taxno" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Adres</label>
+                            <textarea name="address" class="form-control" rows="2" required></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">E-Posta</label>
+                                <input type="email" name="email" class="form-control" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Telefon</label>
+                                <input type="text" name="phone" class="form-control" required placeholder="05XX..." />
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">Kaydet</button>
+                            <a href="/Customer/Index" class="btn btn-secondary">İptal</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

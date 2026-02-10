@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|d:\\indir\\data\\project\\web_interface\\risktrakweb\\risktrakweb\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|solutionrelative:risktrakweb\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|d:\\indir\\data\\project\\web_interface\\risktrakweb\\risktrakweb\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|solutionrelative:risktrakweb\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|d:\\indir\\data\\project\\web_interface\\risktrakweb\\risktrakweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|solutionrelative:risktrakweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|d:\\indir\\data\\project\\web_interface\\risktrakweb\\risktrakweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8435D3EF-F9F0-4AA7-82E1-A352EAC94BF8}|RiskTrakWeb\\RiskTrakWeb.csproj|solutionrelative:risktrakweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "RiskTrakWeb\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "RiskTrakWeb\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T20:24:24.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RiskTrakWeb\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "RiskTrakWeb\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T20:24:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "RiskTrakWeb\\appsettings.json",
+              "ToolTip": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\appsettings.json",
+              "RelativeToolTip": "RiskTrakWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T20:21:13.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "RiskTrakWeb\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\indir\\DATA\\PROJECT\\web_interface\\RiskTrakWeb\\RiskTrakWeb\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "RiskTrakWeb\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:31:52.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

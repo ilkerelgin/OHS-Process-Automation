@@ -1,0 +1,62 @@
+﻿@using System.Data
+@model DataTable
+
+@{
+    ViewData["Title"] = "Müşteri Listesi";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>📂 Müşteri Listesi</h2>
+        <a href="/Customer/Create" class="btn btn-primary">+ Yeni Müşteri Ekle</a>
+    </div>
+
+    @if (Model.Rows.Count > 0)
+    {
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <table class="table table-hover table-bordered align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Firma Adı</th>
+                            <th>Sektör</th>
+                            <th>İletişim</th>
+                            <th style="width: 180px;">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (DataRow row in Model.Rows)
+                        {
+                            <tr>
+                                <td>@row["CustomerID"]</td>
+                                <td><strong>@row["CustomerName"]</strong></td>
+                                <td><span class="badge bg-info text-dark">@row["IndustryType"]</span></td>
+                                <td>
+                                    <div>📞 @row["PhoneNumber"]</div>
+                                    <small class="text-muted">✉️ @row["Email"]</small>
+                                </td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <a href="/Customer/Edit/@row["CustomerID"]" class="btn btn-sm btn-warning">✏️ Düzenle</a>
+
+                                        <form action="/Customer/Delete" method="post" onsubmit="return confirm('Bu kaydı silmek istediğinize emin misiniz?');">
+                                            <input type="hidden" name="id" value="@row["CustomerID"]" />
+                                            <button type="submit" class="btn btn-sm btn-danger">🗑️ Sil</button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center">
+            Henüz hiç kayıt yok. Yeni müşteri ekleyin!
+        </div>
+    }
+</div>
