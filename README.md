@@ -4,21 +4,16 @@ Bu proje,İş Sağlığı ve Güvenliği (İSG / OHS) danışmanlık firmaları 
 
 Bu proje, bir İSG firmasının "Müşteri Talebi"nden "Fatura Kesimi"ne kadar olan tüm iş akışını otomatize etmeyi amaçlar.
 
-#Özellikler
+# Özellikler
 Bu sistem, geleneksel yöntemlerle (Excel vb.) takip edilen karmaşık İSG süreçlerini veritabanı tabanlı bir mimariye taşır.
-
 
 Müşteri ve Talep Yönetimi: Farklı sektörlerdeki (İnşaat, Maden, Gıda vb.) müşterilerin ve gelen taleplerin takibi.
 
-
 Dinamik Teklif Modülü: Hizmet kataloğundan (Eğitim, Denetim, Danışmanlık) seçilen kalemlerle otomatik teklif oluşturma ve onay mekanizması (Draft -> Sent -> Approved).
-
 
 Personel ve Sertifika Takibi: A/B/C sınıfı İş Güvenliği Uzmanları ve İşyeri Hekimlerinin yetkinliklerine göre yönetimi.
 
-
 Operasyonel Planlama: Onaylanan tekliflerin otomatik olarak "İş Emrine" (Service Order) dönüşmesi ve personel ataması.
-
 
 Finansal Otomasyon: Tamamlanan işlerin otomatik olarak faturalandırılması, KDV ve genel toplam hesaplamaları (Computed Columns).
 
