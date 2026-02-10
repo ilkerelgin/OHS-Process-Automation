@@ -1,9 +1,10 @@
 # OHS-Process-Automation
 
-İş Sağlığı ve Güvenliği (İSG / OHS) danışmanlık firmaları için geliştirilmiş; müşteri yönetimi, teklif hazırlama, saha operasyonları ve faturalandırma süreçlerini uçtan uca dijitalleştiren kapsamlı bir CRM ve Operasyon Yönetim Sistemidir.
+Bu proje,İş Sağlığı ve Güvenliği (İSG / OHS) danışmanlık firmaları için geliştirilmiş; müşteri yönetimi, teklif hazırlama, saha operasyonları ve faturalandırma süreçlerini uçtan uca dijitalleştiren kapsamlı bir CRM ve Operasyon Yönetim Sistemidir.
+
 Bu proje, bir İSG firmasının "Müşteri Talebi"nden "Fatura Kesimi"ne kadar olan tüm iş akışını otomatize etmeyi amaçlar.
 
-🚀 Projenin Amacı ve Özellikleri
+#Özellikler
 Bu sistem, geleneksel yöntemlerle (Excel vb.) takip edilen karmaşık İSG süreçlerini veritabanı tabanlı bir mimariye taşır.
 
 
@@ -21,7 +22,7 @@ Operasyonel Planlama: Onaylanan tekliflerin otomatik olarak "İş Emrine" (Servi
 
 Finansal Otomasyon: Tamamlanan işlerin otomatik olarak faturalandırılması, KDV ve genel toplam hesaplamaları (Computed Columns).
 
-🛠️ Teknolojiler ve Mimari
+# Teknolojiler ve Mimari
 Proje, N-Tier Architecture prensiplerine sadık kalınarak geliştirilmiştir.
 
 Backend: ASP.NET Core MVC (.NET 8.0)
